@@ -1,0 +1,432 @@
+body{
+    background-color:white;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* -----------------------Partie Header ----------------------------*/
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.menu{
+    display: flex;
+    padding-top: 20px;
+}
+
+
+.menu li{
+    list-style: none;
+    padding-right: 20px;
+
+}
+
+/* ----------------------Section 1 -------------------------- */
+
+.section1{
+    background-image: url(Group\ 25.png);
+    width: 100%;
+    height: 691px;
+    display: flex;
+    justify-content: center;
+}
+
+.part1{
+    text-align: center;
+    color: white;
+}
+
+.part1 img{
+    background-color: white;
+    width: 150px;
+    height: 86px;
+    border-radius: 17px;
+    padding: 6px;
+    margin-top: 200px;
+}
+
+.part1 h1{
+    background-color: #605555;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    width: 364px;
+    height: 60px;
+}
+
+.part1 p{
+    font-weight: bold;
+    font-size: 15px;
+    width: 344px;
+    height: 48px;
+    text-align: center;
+}
+
+
+/* ---------------------------- Section 2 -------------------------*/
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    
+}
+
+.section2 h2{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+i{
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 37px;
+    border-radius: 72px;
+    border-color: rgb(8, 119, 73);
+}
+
+.programmation, .design, .marketing{
+    text-align: center;
+}
+
+
+/*------------------------------- Section 3 -------------------------------------*/
+
+.section3{
+    background-color: #C4C4C459;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 h2{
+    text-align: center;   
+    padding-top: 20px; 
+}
+
+.section3 ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.section3 li{
+    padding: 15px;
+    text-align: center;
+}
+
+
+/*---------------------------------- Section 4 -----------------------------------------*/
+
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+.section4 img{
+    width: 100%;
+    height: 295px;
+    /* background-color: #756262; */
+}
+
+.image1{
+    margin: 0;
+    /* display: flex; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.image2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    /* display: flex; */
+    width: 100%;
+}
+
+.wp{
+    background-color: #83CBCF;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.html{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #14966f;
+}
+.canva{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #717967;
+}
+.js{
+    grid-column-start: 4;
+    background-color: #649A97;
+}
+.java{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #827263;
+}
+.is{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #35A0AE;
+}
+.ae{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #237792;
+}
+.py{
+    grid-column-start: 4;
+    background-color: #A5C0AD;
+}
+
+/*------------------------------ Section 5 ------------------------------------*/
+
+.partie_principale{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;
+    /* justify-content: center; */
+}
+
+.partie_principale h1{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.partie_principale .para_1{
+    padding-bottom: 80px;
+}
+
+.partie_principale p{
+    text-align: center;
+}
+
+.sous_part1{
+    display: flex;
+    justify-content: center;
+}
+.sous_part2{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*--------------------------- Section 6 ---------------------------------*/
+
+.section6{
+    display: flex;
+    flex-direction: column;
+    background-color: #A5C0AD;
+    width: 100%;
+}
+
+.sect6{
+    text-align: center;
+}
+
+.sect6 h2{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.sect6 p{
+    color: white;
+    padding-bottom: 100px;
+}
+
+.avatar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-content: space-around; */
+    padding-bottom: 90px;
+    height: 347px;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.avatar span{
+    font-weight: bold   ;
+}
+/* ---- Avatar 1---- */
+
+.avatar1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+}
+
+
+.avatar1 img{
+    height: 260px;
+    padding: 10px;
+    padding-bottom: 3px;
+    background-color: #827474;
+    margin-bottom: -3px;
+}
+
+.avatar1 h4{
+    background-color: white;
+    text-align: center;
+    font-weight: normal;
+    padding: 26px;
+    margin-top: 0;
+    width: 67%;
+    /* width: 61%; */
+    /* margin: 0; */
+}
+
+
+
+/*---- Avatar 2 ----*/
+
+.avatar2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+}
+
+.avatar2 img {
+    height: 260px;
+    padding: 10px;
+    padding-bottom: 3px;
+    background-color: #827474;
+    margin-bottom: -3px;
+}
+
+.avatar2 h4 {
+    background-color: white;
+    text-align: center;
+    font-weight: normal;
+    padding: 26px;
+    margin-top: 0;
+    width: 67%;
+}
+
+/*---- Avatar 3 ---- */
+
+.avatar3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 100%;
+}
+
+.avatar3 img {
+    height: 260px;
+    padding: 10px;
+    padding-bottom: 3px;
+    background-color: #827474;
+    margin-bottom: -3px;
+}
+
+.avatar3 h4 {
+    background-color: white;
+    text-align: center;
+    font-weight: normal;
+    padding: 26px;
+    margin-top: 0;
+    width: 67%;
+}
+
+/*---- Avatar 4 ----*/
+
+.avatar4 {
+    grid-column-start: 4;
+    width: 100%;
+}
+.avatar4 img {
+    height: 260px;
+    padding: 10px;
+    padding-bottom: 3px;
+    background-color: #827474;
+    margin-bottom: -3px;
+}
+
+.avatar4 h4 {
+    background-color: white;
+    text-align: center;
+    font-weight: normal;
+    padding: 26px;
+    margin-top: 0;
+    width: 67%;
+}
+
+
+/* .avatar img:hover{
+    height: 280px;
+} */
+
+
+/*-------------------------- Section 7 --------------------------------*/
+
+
+.section7{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section7 p{
+    padding-top: 50px;
+    font-size: 13px;
+}
+
+.section7 p:nth-child(3){
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+
+/*--------------------------- Footer -----------------------*/
+
+footer{
+    background-color: #C4C4C459;
+    text-align: center;
+    
+}
+
+footer h1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+footer .contact{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    margin: 0;
+}
+.icone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+    gap: 30PX;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+}
+
+
+
+
